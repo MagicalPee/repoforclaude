@@ -1,0 +1,11 @@
+# Theo/Salesforce-style YAML
+aliases:
+  BRAND_PRIMARY:
+    value: "#0b5cab"
+props:
+  color-background:
+    value: "#ffffff"
+  color-text-default:
+    value: "#181818"
+  border-radius-medium:
+    value: "0.25rem"

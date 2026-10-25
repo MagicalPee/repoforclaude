@@ -1,0 +1,60 @@
+{
+  "name": "design-intelligence-mcp",
+  "version": "0.1.0",
+  "description": "MCP server that researches real website and design-system styling and generates tailored, implementation-ready UI design systems for Claude Code.",
+  "type": "module",
+  "license": "MIT",
+  "bin": {
+    "design-intelligence-mcp": "dist/cli.js"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "data",
+    "integration",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && node scripts/postbuild.mjs",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:smoke": "node scripts/smoke.mjs",
+    "start": "node dist/cli.js serve",
+    "check": "npm run typecheck && npm test && npm run build && npm run test:smoke",
+    "prepublishOnly": "npm run check"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "claude-code",
+    "design-system",
+    "design-tokens",
+    "ui-design",
+    "typography",
+    "color"
+  ],
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "undici": "^7.30.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.1.12"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MagicalPee/repoforclaude.git"
+  },
+  "homepage": "https://github.com/MagicalPee/repoforclaude#readme",
+  "bugs": {
+    "url": "https://github.com/MagicalPee/repoforclaude/issues"
+  }
+}

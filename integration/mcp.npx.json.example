@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "design-intelligence": {
+      "type": "stdio",
+      "command": "npx",
+      "args": ["-y", "design-intelligence-mcp", "serve"],
+      "env": {}
+    }
+  }
+}

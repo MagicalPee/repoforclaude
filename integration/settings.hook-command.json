@@ -1,0 +1,17 @@
+{
+  "hooks": {
+    "UserPromptSubmit": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node",
+            "args": ["/ABSOLUTE/PATH/TO/design-intelligence-mcp/dist/cli.js", "hook"],
+            "timeout": 10,
+            "statusMessage": "design-intelligence: checking for UI work"
+          }
+        ]
+      }
+    ]
+  }
+}

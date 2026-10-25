@@ -1,0 +1,8 @@
+// SCSS variables and maps
+$brand-blue: #1d70b8;
+$text-colour: #0b0c0c;
+$page-colour: #ffffff;
+$font-family: "Atkinson Hyperlegible", arial, sans-serif !default;
+$breakpoints: (mobile: 320px, tablet: 641px, desktop: 769px);
+$link-colour: $brand-blue;
+:root { --focus-colour: #ffdd00; }

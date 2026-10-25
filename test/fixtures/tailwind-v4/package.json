@@ -1,0 +1,1 @@
+{ "name": "tw4-app", "private": true, "dependencies": { "next": "15.0.0", "react": "19.0.0", "tailwindcss": "^4.1.0", "@tailwindcss/postcss": "^4.1.0" } }

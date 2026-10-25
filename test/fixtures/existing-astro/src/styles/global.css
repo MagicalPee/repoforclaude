@@ -1,0 +1,26 @@
+/* Corner Bakery — brand tokens named after ingredients (not semantic names on purpose). */
+:root {
+  --crust: #b5562b;
+  --crust-deep: #8f3f1c;
+  --flour: #fbf6ee;
+  --flour-dim: #f1e8da;
+  --rye: #2a1d14;
+  --sesame: #e7c27a;
+  --basil: #4f6b3a;
+  --muted: #6b5d52;
+  --font-display: 'Fraunces Variable', Georgia, serif;
+  --font-text: 'Hanken Grotesk Variable', 'Helvetica Neue', Arial, sans-serif;
+  --radius-m: 14px;
+  --radius-l: 24px;
+  --gap: 24px;
+}
+body { margin: 0; background: var(--flour); color: var(--rye); font-family: var(--font-text); font-size: 1.0625rem; line-height: 1.6; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 650; letter-spacing: -0.01em; line-height: 1.05; }
+h1 { font-size: clamp(2.5rem, 6vw, 5rem); }
+h2 { font-size: 2.5rem; }
+a { color: var(--crust-deep); }
+.btn { background: var(--crust); color: #fff; border-radius: 999px; padding: 12px 22px; font-weight: 600; }
+.btn:hover { background: var(--crust-deep); }
+.card { background: #fff; border-radius: var(--radius-l); padding: 28px; box-shadow: 0 6px 18px rgba(42, 29, 20, 0.08); }
+.badge { background: var(--sesame); color: var(--rye); }
+.tag-herb { color: var(--basil); }

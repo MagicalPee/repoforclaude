@@ -1,0 +1,650 @@
+{
+  "version": 1,
+  "description": "Public design-system repositories whose published token/source files are analyzed as research evidence. Files are fetched read-only from raw.githubusercontent.com. Category reflects the organisation's product domain (curated).",
+  "systems": [
+    {
+      "name": "GitHub Primer",
+      "url": "https://primer.style",
+      "category": "developer-tools",
+      "audience": "developers",
+      "positioning": "code collaboration platform",
+      "tags": [
+        "developer",
+        "b2b",
+        "open-source"
+      ],
+      "repo": "primer/primitives",
+      "ref": "main",
+      "files": [
+        {
+          "path": "src/tokens/base/color/light/light.json5"
+        },
+        {
+          "path": "src/tokens/functional/color/bgColor.json5"
+        },
+        {
+          "path": "src/tokens/functional/color/fgColor.json5"
+        },
+        {
+          "path": "src/tokens/functional/color/borderColor.json5"
+        },
+        {
+          "path": "src/tokens/base/typography/typography.json5"
+        },
+        {
+          "path": "src/tokens/functional/typography/font-stack.json5"
+        },
+        {
+          "path": "src/tokens/functional/typography/typography.json5"
+        },
+        {
+          "path": "src/tokens/base/size/size.json5"
+        },
+        {
+          "path": "src/tokens/functional/size/radius.json5"
+        },
+        {
+          "path": "src/tokens/functional/size/breakpoints.json5"
+        },
+        {
+          "path": "src/tokens/functional/shadow/shadow.json5"
+        },
+        {
+          "path": "src/tokens/base/motion/timing.json5"
+        },
+        {
+          "path": "src/tokens/base/color/dark/dark.json5",
+          "theme": "dark"
+        }
+      ]
+    },
+    {
+      "name": "Shopify Polaris",
+      "url": "https://polaris.shopify.com",
+      "category": "ecommerce",
+      "audience": "merchants",
+      "positioning": "commerce platform admin",
+      "tags": [
+        "commerce",
+        "b2b",
+        "merchant"
+      ],
+      "repo": "Shopify/polaris",
+      "ref": "main",
+      "files": [
+        {
+          "path": "polaris-tokens/src/colors.ts"
+        },
+        {
+          "path": "polaris-tokens/src/themes/base/color.ts"
+        },
+        {
+          "path": "polaris-tokens/src/themes/base/font.ts"
+        },
+        {
+          "path": "polaris-tokens/src/themes/base/text.ts"
+        },
+        {
+          "path": "polaris-tokens/src/themes/base/space.ts"
+        },
+        {
+          "path": "polaris-tokens/src/themes/base/border.ts"
+        },
+        {
+          "path": "polaris-tokens/src/themes/base/shadow.ts"
+        },
+        {
+          "path": "polaris-tokens/src/themes/base/motion.ts"
+        },
+        {
+          "path": "polaris-tokens/src/themes/base/breakpoints.ts"
+        }
+      ]
+    },
+    {
+      "name": "Twilio Paste",
+      "url": "https://paste.twilio.design",
+      "category": "developer-tools",
+      "audience": "developers and businesses",
+      "positioning": "communications APIs",
+      "tags": [
+        "developer",
+        "b2b",
+        "api"
+      ],
+      "repo": "twilio-labs/paste",
+      "ref": "main",
+      "files": [
+        {
+          "path": "packages/paste-design-tokens/tokens/aliases/color-palette.yml"
+        },
+        {
+          "path": "packages/paste-design-tokens/tokens/aliases/color.yml"
+        },
+        {
+          "path": "packages/paste-design-tokens/tokens/global/background-color.yml"
+        },
+        {
+          "path": "packages/paste-design-tokens/tokens/global/text-color.yml"
+        },
+        {
+          "path": "packages/paste-design-tokens/tokens/global/border-color.yml"
+        },
+        {
+          "path": "packages/paste-design-tokens/tokens/aliases/font-family.yml"
+        },
+        {
+          "path": "packages/paste-design-tokens/tokens/aliases/font-size.yml"
+        },
+        {
+          "path": "packages/paste-design-tokens/tokens/aliases/font-weight.yml"
+        },
+        {
+          "path": "packages/paste-design-tokens/tokens/aliases/line-height.yml"
+        },
+        {
+          "path": "packages/paste-design-tokens/tokens/aliases/border-radius.yml"
+        },
+        {
+          "path": "packages/paste-design-tokens/tokens/aliases/spacing.yml"
+        },
+        {
+          "path": "packages/paste-design-tokens/tokens/aliases/box-shadow.yml"
+        }
+      ]
+    },
+    {
+      "name": "Salesforce Lightning Design System",
+      "url": "https://www.lightningdesignsystem.com",
+      "category": "saas-b2b",
+      "audience": "enterprise sales and service teams",
+      "positioning": "CRM platform",
+      "tags": [
+        "enterprise",
+        "b2b",
+        "crm"
+      ],
+      "repo": "salesforce-ux/design-system",
+      "ref": "main",
+      "files": [
+        {
+          "path": "design-tokens/aliases/color-palettes.yml"
+        },
+        {
+          "path": "design-tokens/aliases/colors.yml"
+        },
+        {
+          "path": "design-tokens/aliases/font-family.yml"
+        },
+        {
+          "path": "design-tokens/aliases/font-size.yml"
+        },
+        {
+          "path": "design-tokens/aliases/font-weight.yml"
+        },
+        {
+          "path": "design-tokens/aliases/border-radius.yml"
+        },
+        {
+          "path": "design-tokens/aliases/spacing.yml"
+        },
+        {
+          "path": "design-tokens/aliases/duration.yml"
+        }
+      ]
+    },
+    {
+      "name": "Pinterest Gestalt",
+      "url": "https://gestalt.pinterest.systems",
+      "category": "community-social",
+      "audience": "consumers and creators",
+      "positioning": "visual discovery platform",
+      "tags": [
+        "consumer",
+        "social",
+        "visual"
+      ],
+      "repo": "pinterest/gestalt",
+      "ref": "master",
+      "files": [
+        {
+          "path": "packages/gestalt-design-tokens/tokens/classic/base-color.json"
+        },
+        {
+          "path": "packages/gestalt-design-tokens/tokens/classic/comp-web-color-light.json"
+        },
+        {
+          "path": "packages/gestalt-design-tokens/tokens/classic/base-font.json"
+        },
+        {
+          "path": "packages/gestalt-design-tokens/tokens/classic/comp-web-font.json"
+        },
+        {
+          "path": "packages/gestalt-design-tokens/tokens/classic/base-rounding.json"
+        },
+        {
+          "path": "packages/gestalt-design-tokens/tokens/classic/base-space.json"
+        },
+        {
+          "path": "packages/gestalt-design-tokens/tokens/classic/base-elevation-light.json"
+        },
+        {
+          "path": "packages/gestalt-design-tokens/tokens/classic/comp-web-color-dark.json",
+          "theme": "dark"
+        }
+      ]
+    },
+    {
+      "name": "Wikimedia Codex",
+      "url": "https://doc.wikimedia.org/codex/",
+      "category": "media-editorial",
+      "audience": "readers and editors worldwide",
+      "positioning": "free encyclopedia and knowledge projects",
+      "tags": [
+        "editorial",
+        "nonprofit",
+        "reading"
+      ],
+      "repo": "wikimedia/design-codex",
+      "ref": "main",
+      "files": [
+        {
+          "path": "packages/codex-design-tokens/src/themes/wikimedia-ui.json"
+        },
+        {
+          "path": "packages/codex-design-tokens/src/application.json"
+        },
+        {
+          "path": "packages/codex-design-tokens/src/modes/dark.json",
+          "theme": "dark"
+        }
+      ]
+    },
+    {
+      "name": "Workday Canvas",
+      "url": "https://canvas.workday.com",
+      "category": "saas-b2b",
+      "audience": "HR and finance teams",
+      "positioning": "enterprise HR and finance software",
+      "tags": [
+        "enterprise",
+        "b2b",
+        "hr"
+      ],
+      "repo": "Workday/canvas-tokens",
+      "ref": "main",
+      "files": [
+        {
+          "path": "packages/canvas-tokens/tokens/base.json"
+        },
+        {
+          "path": "packages/canvas-tokens/tokens/web/brand.json"
+        },
+        {
+          "path": "packages/canvas-tokens/tokens/web/sys.json"
+        }
+      ]
+    },
+    {
+      "name": "HashiCorp Helios",
+      "url": "https://helios.hashicorp.design",
+      "category": "developer-tools",
+      "audience": "platform and infrastructure engineers",
+      "positioning": "infrastructure automation",
+      "tags": [
+        "developer",
+        "infrastructure",
+        "b2b"
+      ],
+      "repo": "hashicorp/design-system",
+      "ref": "main",
+      "files": [
+        {
+          "path": "packages/tokens/src/global/color/core-neutrals.json"
+        },
+        {
+          "path": "packages/tokens/src/global/color/core-accents.json"
+        },
+        {
+          "path": "packages/tokens/src/global/color/semantic-page.json"
+        },
+        {
+          "path": "packages/tokens/src/global/color/semantic-surface.json"
+        },
+        {
+          "path": "packages/tokens/src/global/color/semantic-foreground.json"
+        },
+        {
+          "path": "packages/tokens/src/global/color/semantic-border.json"
+        },
+        {
+          "path": "packages/tokens/src/global/color/semantic-focus.json"
+        },
+        {
+          "path": "packages/tokens/src/global/border/radius.json"
+        },
+        {
+          "path": "packages/tokens/src/global/elevation/elevation.json"
+        }
+      ]
+    },
+    {
+      "name": "Microsoft Fluent 2",
+      "url": "https://fluent2.microsoft.design",
+      "category": "productivity",
+      "audience": "knowledge workers",
+      "positioning": "productivity and collaboration software",
+      "tags": [
+        "productivity",
+        "enterprise",
+        "consumer"
+      ],
+      "repo": "microsoft/fluentui",
+      "ref": "master",
+      "files": [
+        {
+          "path": "packages/tokens/src/global/brandColors.ts"
+        },
+        {
+          "path": "packages/tokens/src/global/colors.ts"
+        },
+        {
+          "path": "packages/tokens/src/global/borderRadius.ts"
+        },
+        {
+          "path": "packages/tokens/src/global/fonts.ts"
+        },
+        {
+          "path": "packages/tokens/src/global/spacings.ts"
+        },
+        {
+          "path": "packages/tokens/src/global/durations.ts"
+        },
+        {
+          "path": "packages/tokens/src/global/curves.ts"
+        }
+      ]
+    },
+    {
+      "name": "Elastic EUI (Borealis)",
+      "url": "https://eui.elastic.co",
+      "category": "developer-tools",
+      "audience": "engineers and analysts",
+      "positioning": "search, observability and security",
+      "tags": [
+        "developer",
+        "data",
+        "b2b"
+      ],
+      "repo": "elastic/eui",
+      "ref": "main",
+      "files": [
+        {
+          "path": "packages/eui-theme-borealis/src/eui_theme_borealis_light.json"
+        },
+        {
+          "path": "packages/eui-theme-borealis/src/eui_theme_borealis_dark.json",
+          "theme": "dark"
+        }
+      ]
+    },
+    {
+      "name": "Red Hat PatternFly",
+      "url": "https://www.patternfly.org",
+      "category": "saas-b2b",
+      "audience": "enterprise IT",
+      "positioning": "open-source enterprise software",
+      "tags": [
+        "enterprise",
+        "open-source",
+        "b2b"
+      ],
+      "repo": "patternfly/patternfly",
+      "ref": "main",
+      "files": [
+        {
+          "path": "src/patternfly/base/tokens/tokens-palette.scss"
+        },
+        {
+          "path": "src/patternfly/base/tokens/tokens-default.scss"
+        },
+        {
+          "path": "src/patternfly/base/tokens/tokens-dark.scss",
+          "theme": "dark"
+        }
+      ]
+    },
+    {
+      "name": "NHS.UK Frontend",
+      "url": "https://service-manual.nhs.uk/design-system",
+      "category": "health-wellness",
+      "audience": "patients and the public",
+      "positioning": "national health service information and services",
+      "tags": [
+        "health",
+        "government",
+        "accessibility"
+      ],
+      "repo": "nhsuk/nhsuk-frontend",
+      "ref": "main",
+      "files": [
+        {
+          "path": "packages/nhsuk-frontend/src/nhsuk/core/settings/_colours-palette.scss"
+        },
+        {
+          "path": "packages/nhsuk-frontend/src/nhsuk/core/settings/_colours-applied.scss"
+        },
+        {
+          "path": "packages/nhsuk-frontend/src/nhsuk/core/settings/_typography.scss"
+        },
+        {
+          "path": "packages/nhsuk-frontend/src/nhsuk/core/settings/_spacing.scss"
+        },
+        {
+          "path": "packages/nhsuk-frontend/src/nhsuk/core/settings/_breakpoints.scss"
+        },
+        {
+          "path": "packages/nhsuk-frontend/src/nhsuk/core/settings/_globals.scss"
+        }
+      ]
+    },
+    {
+      "name": "Canonical Vanilla",
+      "url": "https://vanillaframework.io",
+      "category": "developer-tools",
+      "audience": "developers and enterprises",
+      "positioning": "Ubuntu and open-source infrastructure",
+      "tags": [
+        "developer",
+        "open-source"
+      ],
+      "repo": "canonical/vanilla-framework",
+      "ref": "main",
+      "files": [
+        {
+          "path": "scss/_settings_colors.scss"
+        },
+        {
+          "path": "scss/_settings_font.scss"
+        },
+        {
+          "path": "scss/_settings_spacing.scss"
+        },
+        {
+          "path": "scss/_settings_breakpoints.scss"
+        },
+        {
+          "path": "scss/_settings_animations.scss"
+        }
+      ]
+    },
+    {
+      "name": "monday.com Vibe",
+      "url": "https://vibe.monday.com",
+      "category": "productivity",
+      "audience": "teams managing work",
+      "positioning": "work management platform",
+      "tags": [
+        "productivity",
+        "b2b",
+        "collaboration"
+      ],
+      "repo": "mondaycom/vibe",
+      "ref": "master",
+      "files": [
+        {
+          "path": "packages/style/src/files/colors.json"
+        },
+        {
+          "path": "packages/style/src/files/tokens.json"
+        },
+        {
+          "path": "packages/style/src/border-radius.scss"
+        }
+      ]
+    },
+    {
+      "name": "Kiwi.com Orbit",
+      "url": "https://orbit.kiwi",
+      "category": "food-hospitality",
+      "audience": "travellers",
+      "positioning": "travel booking",
+      "tags": [
+        "travel",
+        "consumer",
+        "booking"
+      ],
+      "repo": "kiwicom/orbit",
+      "ref": "master",
+      "files": [
+        {
+          "path": "packages/orbit-design-tokens/src/dictionary/definitions/foundation/palette/product.json"
+        },
+        {
+          "path": "packages/orbit-design-tokens/src/dictionary/definitions/foundation/palette/ink.json"
+        },
+        {
+          "path": "packages/orbit-design-tokens/src/dictionary/definitions/foundation/palette/cloud.json"
+        },
+        {
+          "path": "packages/orbit-design-tokens/src/dictionary/definitions/foundation/borderRadius.json"
+        },
+        {
+          "path": "packages/orbit-design-tokens/src/dictionary/definitions/foundation/breakpoints.json"
+        },
+        {
+          "path": "packages/orbit-design-tokens/src/dictionary/definitions/foundation/elevations.json"
+        }
+      ]
+    },
+    {
+      "name": "Ant Design",
+      "url": "https://ant.design",
+      "category": "saas-b2b",
+      "audience": "enterprise application teams",
+      "positioning": "enterprise UI framework (Ant Group)",
+      "tags": [
+        "enterprise",
+        "b2b",
+        "framework"
+      ],
+      "repo": "ant-design/ant-design",
+      "ref": "master",
+      "files": [
+        {
+          "path": "components/theme/themes/seed.ts"
+        }
+      ]
+    },
+    {
+      "name": "Grafana",
+      "url": "https://grafana.com",
+      "category": "developer-tools",
+      "audience": "engineers and SREs",
+      "positioning": "observability dashboards",
+      "tags": [
+        "developer",
+        "data",
+        "dashboards"
+      ],
+      "repo": "grafana/grafana",
+      "ref": "main",
+      "files": [
+        {
+          "path": "packages/grafana-data/src/themes/palette.ts"
+        },
+        {
+          "path": "packages/grafana-data/src/themes/createTypography.ts"
+        },
+        {
+          "path": "packages/grafana-data/src/themes/createShape.ts"
+        },
+        {
+          "path": "packages/grafana-data/src/themes/breakpoints.ts"
+        }
+      ]
+    },
+    {
+      "name": "Tailwind CSS default theme",
+      "url": "https://tailwindcss.com",
+      "category": "reference-frameworks",
+      "audience": "developers",
+      "positioning": "utility-first CSS framework",
+      "tags": [
+        "framework",
+        "baseline"
+      ],
+      "repo": "tailwindlabs/tailwindcss",
+      "ref": "main",
+      "files": [
+        {
+          "path": "packages/tailwindcss/theme.css"
+        }
+      ]
+    },
+    {
+      "name": "Radix Colors",
+      "url": "https://www.radix-ui.com/colors",
+      "category": "reference-frameworks",
+      "audience": "developers",
+      "positioning": "accessible color scales",
+      "tags": [
+        "framework",
+        "baseline",
+        "color"
+      ],
+      "repo": "radix-ui/colors",
+      "ref": "main",
+      "files": [
+        {
+          "path": "src/light.ts"
+        },
+        {
+          "path": "src/dark.ts",
+          "theme": "dark"
+        }
+      ]
+    },
+    {
+      "name": "Bootstrap",
+      "url": "https://getbootstrap.com",
+      "category": "reference-frameworks",
+      "audience": "developers",
+      "positioning": "component CSS framework",
+      "tags": [
+        "framework",
+        "baseline"
+      ],
+      "repo": "twbs/bootstrap",
+      "ref": "main",
+      "files": [
+        {
+          "path": "scss/_colors.scss"
+        },
+        {
+          "path": "scss/_theme.scss"
+        }
+      ]
+    }
+  ]
+}

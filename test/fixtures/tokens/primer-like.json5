@@ -1,0 +1,12 @@
+// DTCG 2025 style with color objects, references and comments
+{
+  base: { color: { neutral: { 0: { $type: 'color', $value: { colorSpace: 'srgb', components: [1, 1, 1], hex: '#ffffff' } },
+                               13: { $value: { colorSpace: 'srgb', components: [0.1, 0.1, 0.1], hex: '#1f2328' } } },
+                   blue: { 5: { $value: '#0969da' } } } },
+  bgColor: { default: { $value: '{base.color.neutral.0}' }, muted: { $value: '#f6f8fa' } },
+  fgColor: { default: { $value: '{base.color.neutral.13}' }, muted: { $value: '#59636e' } },
+  button: { primary: { bgColor: { rest: { $value: '{base.color.blue.5}' } } } },
+  borderRadius: { small: { $value: '3px' }, medium: { $value: '6px' }, large: { $value: '12px' } },
+  fontStack: { sansSerif: { $value: "'Mona Sans VF', -apple-system, 'Segoe UI', sans-serif" }, monospace: { $value: "ui-monospace, SFMono-Regular, monospace" } },
+  breakpoints: { small: { $value: '544px' }, medium: { $value: '768px' } },
+}

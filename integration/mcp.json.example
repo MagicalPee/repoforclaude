@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "design-intelligence": {
+      "type": "stdio",
+      "command": "node",
+      "args": ["/ABSOLUTE/PATH/TO/design-intelligence-mcp/dist/cli.js", "serve"],
+      "env": {}
+    }
+  }
+}
